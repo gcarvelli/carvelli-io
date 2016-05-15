@@ -38,46 +38,23 @@
 					<section id="two">
 						<h2>Recent Work</h2>
 						<div class="row">
-							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3>Magna sed consequat tempus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>Ultricies lacinia interdum</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
-								<h3>Tortor metus commodo</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-								<h3>Quam neque phasellus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-								<h3>Nunc enim commodo aliquet</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							<article class="6u 12u$(xsmall) work-item" ng-repeat="project in projects">
+								<a href="{{ project.thumb }}" class="image fit thumb"><img src="{{ project.image }}" alt="" /></a>
+								<h3>{{ project.name }}</h3>
+								<p>{{ project.description }}</p>
 							</article>
 						</div>
 						<ul class="actions">
-							<li><a href="#" class="button">Full Portfolio</a></li>
+							<li><a href="{{ icons[1].link }}" class="button">
+								<i class="fa fa-github" aria-hidden="true"></i> @gcarvelli on Github
+							</a></li>
 						</ul>
 					</section>
 
 				<!-- Three -->
 					<section id="three">
 						<h2>Get In Touch</h2>
-						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+						<p>{{ profile.contact }}</p>
 						<div class="row">
 							<div class="8u 12u$(small)">
 								<form method="post" action="#">
@@ -105,9 +82,11 @@
 										000-000-0000
 									</li>
 									-->
-									<li>
-										<h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
-										<a href="mailto:gio@carvelli.io">gio@carvelli.io</a>
+									<li ng-repeat="p in profiles">
+										<div ng-if="p.contact">
+											<h3 class="icon {{ p.icon }}"><span class="label">{{ p.name }}</span></h3>
+											<a href="{{ p.link }}">{{ p.handle }}</a>
+										</div>
 									</li>
 								</ul>
 							</div>
@@ -118,8 +97,8 @@
 		<!-- Footer -->
 			<footer id="footer">
 				<ul class="icons" >
-					<li ng-repeat="i in icons">
-						<a href={{i.link}} class="icon {{ i.icon }}"><span class="label">{{ i.name }}</span></a>
+					<li ng-repeat="p in profiles">
+						<a href={{p.link}} class="icon {{ p.icon }}"><span class="label">{{ p.name }}</span></a>
 					</li>
 				</ul>
 				<ul class="copyright">
