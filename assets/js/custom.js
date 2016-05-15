@@ -56,13 +56,25 @@ var app = angular.module('gcarvelliWebsite', [])
                 name: "Which Exchange",
                 image: "images/thumbs/03.jpg",
                 link: "https://github.com/WhichExchange/WhichExchange",
-                description: "Guess which StackExchange site each question comes from!"
+                description: "Guess which StackExchange site each question comes from! HackNJIT 2015 project."
+            },
+            {
+                name: "Reddit Backgrounds",
+                image: "images/thumbs/04.jpg",
+                link: "https://github.com/chtinahow/reddit-backgrounds",
+                description: "Scrapes a list of subreddits for high resolution wallpapers. HackRPI 2015 project."
             },
             {
                 name: "Community Care Hub",
-                image: "images/thumbs/04.jpg",
+                image: "images/thumbs/06.jpg",
                 link: "https://github.com/amk5401/CommunityCareHub",
                 description: "A hastily-put-together HCI prototype for an elderly care home. Created for a Software Usability class."
+            },
+            {
+                name: "KwikThinker",
+                image: "images/thumbs/05.jpg",
+                link: "https://github.com/KwikThinker/KwikThinker",
+                description: "Simple Android true/false trivia app. Award-winning HackRPI 2014 project."
             }
         ]
     });
