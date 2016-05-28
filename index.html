@@ -15,7 +15,7 @@
 		<!-- Header -->
 			<header id="header">
 				<a href="#" class="image avatar"><img src="{{ profile.image }}" alt="" /></a>
-				<h1><strong>I am Gio</strong>, a fourth year <br /> Computer Science Major from RIT.</h1>
+				<h1><strong>I am Gio</strong>, a fourth year <br /> Computer Science Major at RIT.</h1>
 			</header>
 
 		<!-- Main -->
@@ -39,7 +39,7 @@
 						<h2>Recent Work</h2>
 						<div class="row">
 							<article class="6u 12u$(xsmall) work-item" ng-repeat="project in projects">
-								<a href="{{ project.link }}" class="image fit thumb"><img src="{{ project.image }}" alt="" /></a>
+								<a href="{{ project.link }}" class="image fit thumb" data-after="{{ project.link_text }}"><img src="{{ project.image }}" alt="" /></a>
 								<h3>{{ project.name }}</h3>
 								<p>{{ project.description }}</p>
 							</article>

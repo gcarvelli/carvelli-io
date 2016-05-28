@@ -44,36 +44,42 @@ var app = angular.module('gcarvelliWebsite', [])
                 name: "House Explorer",
                 image: "images/fulls/01.jpg",
                 link: "https://github.com/gcarvelli/house-explorer",
+                link_text: "View Source",
                 description: "A text-based game engine written in Python."
             },
             {
                 name: "Geddit",
                 image: "images/fulls/02.jpg",
                 link: "https://github.com/gcarvelli/geddit",
+                link_text: "View Source",
                 description: "Reddit clone written from scratch in Ruby on Rails."
             },
             {
                 name: "Which Exchange",
                 image: "images/thumbs/03.jpg",
-                link: "https://github.com/WhichExchange/WhichExchange",
+                link: "http://www.kwikthinkers.xyz/whichexchange/",
+                link_text: "View Demo",
                 description: "Guess which StackExchange site each question comes from! HackNJIT 2015 project."
             },
             {
                 name: "Reddit Backgrounds",
                 image: "images/thumbs/04.jpg",
                 link: "https://github.com/chtinahow/reddit-backgrounds",
+                link_text: "View Source",
                 description: "Scrapes a list of subreddits for high resolution wallpapers. HackRPI 2015 project."
             },
             {
                 name: "Community Care Hub",
                 image: "images/thumbs/06.jpg",
                 link: "https://github.com/amk5401/CommunityCareHub",
+                link_text: "View Source",
                 description: "A hastily-put-together HCI prototype for an elderly care home. Created for a Software Usability class."
             },
             {
                 name: "KwikThinker",
                 image: "images/thumbs/05.jpg",
                 link: "https://github.com/KwikThinker/KwikThinker",
+                link_text: "View Source",
                 description: "Simple Android true/false trivia app. Award-winning HackRPI 2014 project."
             }
         ]
