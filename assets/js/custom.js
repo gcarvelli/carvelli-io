@@ -11,7 +11,7 @@ var app = angular.module('gcarvelliWebsite', [])
             title: "Hello, I'm Gio.",
             image: "https://gravatar.com/avatar/9c5c1a414e20e714b0ea466fa6617940/?s=400",
             intro: "I spent four years as a Software Engineering major at RIT but I plan on graduating Computer Science in May, 2017. ",
-            contact: "Want to get in touch? Send me a message on one of my profiles or use the form below!"
+            contact: "Want to get in touch? Contact me using one of the methods below!"
         };
 
         $scope.profiles = [

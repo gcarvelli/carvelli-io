@@ -16,7 +16,7 @@
 		<!-- Header -->
 			<header id="header">
 				<a href="#" class="image avatar"><img ng-src="{{ profile.image }}" alt="" /></a>
-				<h1><strong>I am Gio</strong>, a fourth year <br /> Computer Science Major at RIT.</h1>
+				<h1><strong>I am Gio</strong>, a fifth year <br /> Computer Science Major at RIT.</h1>
 			</header>
 
 		<!-- Main -->
@@ -30,9 +30,6 @@
 						<p>
 							{{ profile.intro }}
 						</p>
-						<!--<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul>-->
 					</section>
 
 				<!-- Two -->
@@ -56,42 +53,13 @@
 					<section id="three">
 						<h2>Get In Touch</h2>
 						<p>{{ profile.contact }}</p>
-						<div class="row">
-							<div class="8u 12u$(small)">
-								<form method="post" action="#">
-									<div class="row uniform 50%">
-										<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-									</div>
-								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</div>
-							<div class="4u$ 12u$(small)">
-								<ul class="labeled-icons">
-									<!--
-									<li>
-										<h3 class="icon fa-home"><span class="label">Address</span></h3>
-										1234 Somewhere Rd.<br />
-										Nashville, TN 00000<br />
-										United States
-									</li>
-									<li>
-										<h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
-										000-000-0000
-									</li>
-									-->
-									<li ng-repeat="p in profiles">
-										<div ng-if="p.contact">
-											<h3 class="icon {{ p.icon }}"><span class="label">{{ p.name }}</span></h3>
-											<a href="{{ p.link }}">{{ p.handle }}</a>
-										</div>
-									</li>
-								</ul>
-							</div>
-						</div>
+						<ul class="actions">
+							<li ng-repeat="p in profiles">
+								<a href="{{ p.link }}" class="button">
+									<i class="fa {{ p.icon }}" aria-hidden="true"></i> {{ p.handle }}
+								</a>
+							</li>
+						</ul>
 					</section>
 			</div>
 
