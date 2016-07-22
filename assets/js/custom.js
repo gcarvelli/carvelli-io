@@ -96,22 +96,21 @@ var app = angular.module('gcarvelliWebsite', [])
                 title: "Azure Machine Learning Development Intern",
                 dates: "Summer 2016",
                 image: "https://assets.carvelli.io/personal/companies/microsoft.png",
-                description: "Working as a member of a small development team under AzureML, I optimized a polling-based communication system in AzureML's backend using notifications through Azure ServiceBus. \
-                ajdh aksdhfk sjfk jsdksjdhfdkjs fksdjfh ksdjfhskjf dskfj sh sh k hdj fkshkfhs jk askjdhaksjd aksj asjd sakjdhak sda"
+                description: "Working as a member of a small development team under AzureML, I optimized a polling-based communication system in AzureML's backend using notifications through Azure ServiceBus."
             },
             {
                 company: "Datto Inc.",
                 title: "Cloud Development Intern",
                 dates: "Summer/Fall 2015",
                 image: "https://assets.carvelli.io/personal/companies/datto.png",
-                description: ""
+                description: "As a member of the Cloud Products development team I wrote and maintained code running on Datto's web portals, on-site devices, and storage nodes. I also worked on internal tooling for user account management."
             },
             {
                 company: "Rochester Software Associates",
                 title: "C#/.NET Development Intern",
                 dates: "Summer/Fall 2014",
                 image: "https://assets.carvelli.io/personal/companies/rsa.png",
-                description: "I did some neat stuff at Datto, like things and such. I did some neat stuff at Datto, like things and such."
+                description: "Fixed bugs and developed new features for RSA's .NET-based suite of printer ticket transformation programs."
             }
         ]
     });
