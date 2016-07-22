@@ -7,12 +7,29 @@
     line-height: 1.6em;
 }
 
-.employer-header img {
+.employer-header {
     float: left;
-    width: 80px;
-    margin: 10px 20px 10px 10px;
+    width: 15%;
+}
+
+.employer-body {
+    float: left;
+    width: 85%;
+}
+
+.employer-header img {
+    width: 80%;
+    margin: 5px 0 10px 10px;
+    padding-right: 20px;
 }
 
 .employer-header h3 {
     margin: auto;
+}
+
+@media (max-width: 600px) {
+  .employer-header {
+    width: 25%;
+    min-width: 100px;
+  }
 }
