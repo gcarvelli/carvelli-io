@@ -10,7 +10,7 @@ var app = angular.module('gcarvelliWebsite', [])
         $scope.profile = {
             title: "Hello, I'm Gio.",
             image: "https://gravatar.com/avatar/9c5c1a414e20e714b0ea466fa6617940/?s=400",
-            intro: "I spent four years as a Software Engineering major at RIT but I plan on graduating Computer Science in May, 2017. ",
+            intro: "I study Computer Science at RIT with planned graduation in May 2017. Most of my experience is in web development and large-scale cloud systems. I love solving big problems! ",
             contact: "Want to get in touch? Contact me using one of the methods below!"
         };
 
@@ -87,6 +87,31 @@ var app = angular.module('gcarvelliWebsite', [])
                 link: "https://github.com/KwikThinker/KwikThinker",
                 link_text: "View Source",
                 description: "Simple Android true/false trivia app. Award-winning HackRPI 2014 project."
+            }
+        ];
+
+        $scope.jobs = [
+            {
+                company: "Microsoft",
+                title: "Azure Machine Learning Development Intern",
+                dates: "Summer 2016",
+                image: "https://assets.carvelli.io/personal/companies/microsoft.png",
+                description: "Working as a member of a small development team under AzureML, I optimized a polling-based communication system in AzureML's backend using notifications through Azure ServiceBus. \
+                ajdh aksdhfk sjfk jsdksjdhfdkjs fksdjfh ksdjfhskjf dskfj sh sh k hdj fkshkfhs jk askjdhaksjd aksj asjd sakjdhak sda"
+            },
+            {
+                company: "Datto Inc.",
+                title: "Cloud Development Intern",
+                dates: "Summer/Fall 2015",
+                image: "https://assets.carvelli.io/personal/companies/datto.png",
+                description: ""
+            },
+            {
+                company: "Rochester Software Associates",
+                title: "C#/.NET Development Intern",
+                dates: "Summer/Fall 2014",
+                image: "https://assets.carvelli.io/personal/companies/rsa.png",
+                description: "I did some neat stuff at Datto, like things and such. I did some neat stuff at Datto, like things and such."
             }
         ]
     });

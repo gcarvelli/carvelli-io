@@ -1,1 +1,18 @@
+#three h4 {
+    margin-bottom: 0.4em;
+    font-size: 0.9em;
+}
 
+#three p {
+    line-height: 1.6em;
+}
+
+.employer-header img {
+    float: left;
+    width: 80px;
+    margin: 10px 20px 10px 10px;
+}
+
+.employer-header h3 {
+    margin: auto;
+}
