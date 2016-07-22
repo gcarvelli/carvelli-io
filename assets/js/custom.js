@@ -10,7 +10,7 @@ var app = angular.module('gcarvelliWebsite', [])
         $scope.profile = {
             title: "Hello, I'm Gio.",
             image: "https://gravatar.com/avatar/9c5c1a414e20e714b0ea466fa6617940/?s=400",
-            intro: "I study Computer Science at RIT with planned graduation in May 2017. Most of my experience is in web development and large-scale cloud systems. I love solving big problems! ",
+            intro: "I study Computer Science at RIT with planned graduation in May 2017. Most of my experience is in web development and cloud-based applications. I love solving big problems! ",
             contact: "Want to get in touch? Contact me using one of the methods below!"
         };
 
