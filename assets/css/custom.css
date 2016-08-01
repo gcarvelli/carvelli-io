@@ -2,7 +2,6 @@
     margin-bottom: 0.4em;
     font-size: 0.9em;
 }
-
 #experience p {
     line-height: 1.6em;
 }
@@ -11,25 +10,29 @@
     float: left;
     width: 15%;
 }
+.employer-header img {
+    width: 80%;
+    margin: 5px 0 10px 10px;
+    padding-right: 20px;
+}
+.employer-header h3 {
+    margin: auto;
+}
+@media (max-width: 600px) {
+  .employer-header {
+    width: 25%;
+    min-width: 100px;
+  }
+}
 
 .employer-body {
     float: left;
     width: 85%;
 }
 
-.employer-header img {
-    width: 80%;
-    margin: 5px 0 10px 10px;
-    padding-right: 20px;
+.work-item a {
+    color: rgb(120,120,120);
 }
-
-.employer-header h3 {
-    margin: auto;
-}
-
-@media (max-width: 600px) {
-  .employer-header {
-    width: 25%;
-    min-width: 100px;
-  }
+.work-item a:hover {
+    text-decoration: underline;
 }
