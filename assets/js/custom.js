@@ -55,7 +55,7 @@ var app = angular.module('gcarvelliWebsite', [])
             },
             {
                 name: "Which Exchange",
-                image: $scope.config["asset_link"] + "/projects/03.jpg",
+                image: $scope.config["asset_link"] + "/projects/whichexchange.png",
                 link: "http://www.kwikthinkers.xyz/whichexchange/",
                 link_text: "View Demo",
                 description: "Guess which StackExchange site each question comes from! HackNJIT 2015 project."
