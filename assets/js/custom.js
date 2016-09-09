@@ -69,7 +69,7 @@ var app = angular.module('gcarvelliWebsite', [])
             },
             {
                 name: "Reddit Backgrounds",
-                image: $scope.config["asset_link"] + "/projects/04.jpg",
+                image: $scope.config["asset_link"] + "/projects/reddit-backgrounds.png",
                 link: "https://github.com/chtinahow/reddit-backgrounds",
                 link_text: "View Source",
                 description: "Scrapes a list of subreddits for high resolution wallpapers. HackRPI 2015 project."
