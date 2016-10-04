@@ -1,11 +1,3 @@
-#experience h4 {
-    margin-bottom: 0.4em;
-    font-size: 0.9em;
-}
-#experience p {
-    line-height: 1.6em;
-}
-
 .employer-header {
     float: left;
     width: 15%;
@@ -29,6 +21,16 @@
     float: left;
     width: 85%;
 }
+.employer-body h3 {
+  margin: 0;
+}
+.employer-body h4 {
+    margin-bottom: 0.9em;
+    font-size: 0.9em;
+}
+.employer-body p {
+    line-height: 1.6em;
+}
 
 .work-item a {
     color: rgb(120,120,120);
@@ -39,4 +41,11 @@
 
 .actions i {
     padding-right: 5px;
+}
+
+.image.thumb:after {
+    transition: all .3s ease-in-out;
+}
+.image.thumb:hover:after {
+    transform: scale(1.05);
 }

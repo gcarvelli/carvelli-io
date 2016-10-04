@@ -55,7 +55,7 @@
                     <h2>Projects</h2>
                     <div class="row">
                         <article class="6u 12u$(xsmall) work-item" ng-repeat="project in projects">
-                            <a href="{{ project.link }}"><div href="{{ project.link }}" class="image fit thumb" data-after="{{ project.link_text }}"><img ng-src="{{ project.image }}" alt="" /></div>
+                            <a href="{{ project.link }}"><div href="{{ project.link }}" class="image fit thumb" data-after="{{ project.link_text }}"><img class="project-image" ng-src="{{ project.image }}" alt="" /></div>
                             <h3>{{ project.name }}</h3></a>
                             <p>{{ project.description }}</p>
                         </article>
