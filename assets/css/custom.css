@@ -43,9 +43,9 @@
     padding-right: 5px;
 }
 
-.image.thumb:after {
+.image.thumb:after, .image.avatar, .job-image {
     transition: all .3s ease-in-out;
 }
-.image.thumb:hover:after {
+.image.thumb:hover:after, .image.avatar:hover, .job-image:hover {
     transform: scale(1.05);
 }

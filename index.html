@@ -15,7 +15,7 @@
 
         <!-- Header -->
             <header id="header">
-                <a href="#" class="image avatar"><img ng-src="{{ profile.image }}" alt="" /></a>
+                <a href="#" class="image avatar"><img class="zoom-on-hover" ng-src="{{ profile.image }}" alt="" /></a>
                 <h1><strong>I am Gio</strong>, a fifth year <br /> Computer Science Major at RIT.</h1>
             </header>
 
@@ -34,7 +34,7 @@
                     <h2>Experience</h2>
                     <div class="row" ng-repeat="job in jobs">
                         <article class="12u 12u$(xsmall)">
-                            <div class="employer-header">
+                            <div class="employer-header job-image">
                                 <img ng-src="{{ job.image }}" />
                             </div>
                             <div class="employer-body">
@@ -55,7 +55,7 @@
                     <h2>Projects</h2>
                     <div class="row">
                         <article class="6u 12u$(xsmall) work-item" ng-repeat="project in projects">
-                            <a href="{{ project.link }}"><div href="{{ project.link }}" class="image fit thumb" data-after="{{ project.link_text }}"><img class="project-image" ng-src="{{ project.image }}" alt="" /></div>
+                            <a href="{{ project.link }}"><div href="{{ project.link }}" class="image fit thumb zoom-on-hover" data-after="{{ project.link_text }}"><img class="project-image" ng-src="{{ project.image }}" alt="" /></div>
                             <h3>{{ project.name }}</h3></a>
                             <p>{{ project.description }}</p>
                         </article>
