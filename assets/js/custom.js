@@ -72,14 +72,14 @@ var app = angular.module('gcarvelliWebsite', [])
                 image: $scope.config["asset_link"] + "/projects/reddit-backgrounds.png",
                 link: "https://github.com/chtinahow/reddit-backgrounds",
                 link_text: "View Source",
-                description: "Scrapes a list of subreddits for high resolution wallpapers. HackRPI 2015 project."
+                description: "Scrapes multiple subreddits for high resolution wallpapers. HackRPI 2015 project."
             },
             {
                 name: "Community Care Hub",
                 image: $scope.config["asset_link"] + "/projects/06.jpg",
                 link: "https://github.com/amk5401/CommunityCareHub",
                 link_text: "View Source",
-                description: "A hastily-put-together HCI prototype for an elderly care home. Created for a Software Usability class."
+                description: "An HCI prototype for an elderly care home. Created for a Software Usability class."
             },
             {
                 name: "KwikThinker",
