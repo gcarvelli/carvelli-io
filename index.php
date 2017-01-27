@@ -13,6 +13,8 @@
     </head>
     <body id="top" ng-app="gcarvelliWebsite" ng-controller="gcarvelliWebsiteController">
 
+        <?php include_once("analytics.php") ?>
+
         <!-- Header -->
             <header id="header">
                 <div class="image avatar"><img class="zoom-on-hover" ng-src="{{ profile.image }}" alt="" /></div>
