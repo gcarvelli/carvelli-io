@@ -13,7 +13,7 @@
     </head>
     <body id="top" ng-app="gcarvelliWebsite" ng-controller="gcarvelliWebsiteController">
 
-        <?php include_once("analytics.php") ?>
+        <?php //include_once("analytics.php") ?>
 
         <!-- Header -->
             <header id="header">
