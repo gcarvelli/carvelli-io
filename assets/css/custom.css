@@ -38,6 +38,9 @@
 .work-item a:hover {
     text-decoration: underline;
 }
+.work-item p {
+    min-height: 3em;
+}
 
 .actions i {
     padding-right: 5px;

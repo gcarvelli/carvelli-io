@@ -47,25 +47,18 @@ var app = angular.module('gcarvelliWebsite', [])
 
         $scope.projects = [
             {
-                name: "Geddit",
+                name: "Text Adventure",
                 image: $scope.config["asset_link"] + "/projects/02.jpg",
-                link: "https://github.com/gcarvelli/geddit",
-                link_text: "View Source",
-                description: "Reddit clone written from scratch in Ruby on Rails."
+                link: "https://github.com/gcarvelli/text-adventure",
+                link_text: "View Demo",
+                description: "A text-based game engine for the web."
             },
             {
                 name: "Which Exchange",
                 image: $scope.config["asset_link"] + "/projects/whichexchange.png",
-                link: "http://www.kwikthinkers.xyz/whichexchange/",
+                link: "https://kwikthinkers.xyz/whichexchange/",
                 link_text: "View Demo",
                 description: "Guess which StackExchange site each question comes from! HackNJIT 2015 project."
-            },
-            {
-                name: "House Explorer",
-                image: $scope.config["asset_link"] + "/projects/house-explorer.png",
-                link: "https://github.com/gcarvelli/house-explorer",
-                link_text: "View Source",
-                description: "A text-based game engine written in Python."
             },
             {
                 name: "Reddit Backgrounds",
@@ -75,18 +68,25 @@ var app = angular.module('gcarvelliWebsite', [])
                 description: "Scrapes multiple subreddits for high resolution wallpapers. HackRPI 2015 project."
             },
             {
-                name: "Community Care Hub",
-                image: $scope.config["asset_link"] + "/projects/06.jpg",
-                link: "https://github.com/amk5401/CommunityCareHub",
+                name: "Spotify Backup",
+                image: $scope.config["asset_link"] + "/projects/02.jpg",
+                link: "https://github.com/gcarvelli/spotify-backup",
                 link_text: "View Source",
-                description: "An HCI prototype for an elderly care home. Created for a Software Usability class."
+                description: "Back up your Spotify playlists via the Spotify API."
             },
             {
-                name: "KwikThinker",
-                image: $scope.config["asset_link"] + "/projects/05.jpg",
-                link: "https://github.com/KwikThinker/KwikThinker",
+                name: "Geddit",
+                image: $scope.config["asset_link"] + "/projects/02.jpg",
+                link: "https://github.com/gcarvelli/geddit",
                 link_text: "View Source",
-                description: "Simple Android true/false trivia app. Award-winning HackRPI 2014 project."
+                description: "Reddit clone written from scratch in Ruby on Rails."
+            },
+            {
+                name: "House Explorer",
+                image: $scope.config["asset_link"] + "/projects/house-explorer.png",
+                link: "https://github.com/gcarvelli/house-explorer",
+                link_text: "View Source",
+                description: "A text-based game engine written in Python."
             }
         ];
 
