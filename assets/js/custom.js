@@ -50,7 +50,7 @@ var app = angular.module('gcarvelliWebsite', [])
                 name: "Text Adventure",
                 image: $scope.config["asset_link"] + "/projects/02.jpg",
                 link: "https://github.com/gcarvelli/text-adventure",
-                link_text: "View Demo",
+                link_text: "View Source",
                 description: "A text-based game engine for the web."
             },
             {
