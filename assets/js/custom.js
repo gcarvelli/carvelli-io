@@ -48,9 +48,9 @@ var app = angular.module('gcarvelliWebsite', [])
         $scope.projects = [
             {
                 name: "Text Adventure",
-                image: $scope.config["asset_link"] + "/projects/02.jpg",
-                link: "https://github.com/gcarvelli/text-adventure",
-                link_text: "View Source",
+                image: $scope.config["asset_link"] + "/projects/text-adventure.png",
+                link: "https://text-adventure.carvelli.io",
+                link_text: "View Demo",
                 description: "A text-based game engine for the web."
             },
             {
@@ -63,7 +63,7 @@ var app = angular.module('gcarvelliWebsite', [])
             {
                 name: "Reddit Backgrounds",
                 image: $scope.config["asset_link"] + "/projects/reddit-backgrounds.png",
-                link: "https://github.com/chtinahow/reddit-backgrounds",
+                link: "https://github.com/gcarvelli/reddit-backgrounds",
                 link_text: "View Source",
                 description: "Scrapes multiple subreddits for high resolution wallpapers. HackRPI 2015 project."
             },
