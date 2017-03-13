@@ -73,7 +73,7 @@
                     <h2>Get In Touch</h2>
                     <p>{{ profile.contact }}</p>
                     <ul class="actions">
-                        <li ng-repeat="p in profiles">
+                        <li ng-repeat="p in profiles" ng-if="p.contact">
                             <a href="{{ p.link }}" class="button">
                                 <i class="fa {{ p.icon }}" aria-hidden="true"></i> {{ p.handle }}
                             </a>

@@ -30,6 +30,13 @@ var app = angular.module('gcarvelliWebsite', [])
                 contact: false
             },
             {
+                name: "Stack Overflow",
+                icon: "fa-stack-overflow",
+                link: "http://stackoverflow.com/users/3754233",
+                handle: "gcarvelli",
+                contact: false
+            },
+            {
                 name: "LinkedIn",
                 icon: "fa-linkedin",
                 link: "https://linkedin.com/in/gcarvelli",
