@@ -72,18 +72,18 @@ var app = angular.module('gcarvelliWebsite', [])
                 image: $scope.config["asset_link"] + "/projects/reddit-backgrounds.png",
                 link: "https://github.com/gcarvelli/reddit-backgrounds",
                 link_text: "View Source",
-                description: "Scrapes multiple subreddits for high resolution wallpapers. HackRPI 2015 project."
+                description: "Scrape multiple subreddits for high resolution wallpapers. HackRPI 2015 project."
             },
             {
                 name: "Spotify Backup",
                 image: $scope.config["asset_link"] + "/projects/02.jpg",
                 link: "https://github.com/gcarvelli/spotify-backup",
                 link_text: "View Source",
-                description: "Back up your Spotify playlists via the Spotify API."
+                description: "Back up your Spotify playlist metadata via the Spotify API."
             },
             {
                 name: "Geddit",
-                image: $scope.config["asset_link"] + "/projects/02.jpg",
+                image: $scope.config["asset_link"] + "/projects/geddit.png",
                 link: "https://github.com/gcarvelli/geddit",
                 link_text: "View Source",
                 description: "Reddit clone written from scratch in Ruby on Rails."
