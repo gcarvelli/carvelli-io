@@ -10,7 +10,7 @@ var app = angular.module('gcarvelliWebsite', [])
         $scope.profile = {
             title: "Hello, I'm Gio.",
             image: "https://gravatar.com/avatar/9c5c1a414e20e714b0ea466fa6617940/?s=400",
-            intro: "I study Computer Science at RIT with planned graduation in May 2017. Most of my experience is in web development and cloud-based applications. I love solving big problems! ",
+            intro: "I study Computer Science at RIT with planned graduation in May 2017. My experience is centered around web development and cloud applications.",
             contact: "Want to get in touch? Contact me using one of the methods below!"
         };
 
@@ -58,7 +58,7 @@ var app = angular.module('gcarvelliWebsite', [])
                 image: $scope.config["asset_link"] + "/projects/text-adventure.png",
                 link: "https://text-adventure.carvelli.io",
                 link_text: "View Demo",
-                description: "A text-based game engine for the web."
+                description: "A text-based game engine written for the web."
             },
             {
                 name: "Which Exchange",
