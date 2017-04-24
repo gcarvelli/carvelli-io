@@ -52,3 +52,21 @@
 .image.thumb:hover:after, .image.avatar:hover, .job-image:hover {
     transform: scale(1.05);
 }
+
+.zoom-on-hover {
+    background-size: cover;
+    background-position: center;
+    transition: .6s;
+}
+.zoom-on-hover:hover {
+    transform: scale(1.05);
+}
+
+
+.image-wrap {
+    box-shadow: 0 0 2px 2px rgba(0,40,53,0.3);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-bottom: 1em;
+    padding: 0;
+}

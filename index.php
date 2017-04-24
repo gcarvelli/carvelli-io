@@ -57,8 +57,14 @@
                     <h2>Projects</h2>
                     <div class="row">
                         <article class="6u 12u$(xsmall) work-item" ng-repeat="project in projects">
-                            <a href="{{ project.link }}"><div href="{{ project.link }}" class="image fit thumb zoom-on-hover" data-after="{{ project.link_text }}"><img class="project-image" ng-src="{{ project.image }}" alt="" /></div>
-                            <h3>{{ project.name }}</h3></a>
+                            <a href="{{ project.link }}">
+                                <div class="image-wrap">
+                                <div href="{{ project.link }}" class="image fit thumb zoom-on-hover" style="background-image:url({{ project.image }})" data-after="{{ project.link_text }}">
+                                    <img class="project-image" ng-src="https://assets.carvelli.io/personal/placeholder.gif" alt="" />
+                                </div>
+                                </div>
+                                <h3>{{ project.name }}</h3>
+                            </a>
                             <p>{{ project.description }}</p>
                         </article>
                     </div>
