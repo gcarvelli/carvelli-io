@@ -57,42 +57,42 @@ var app = angular.module('gcarvelliWebsite', [])
                 name: "Text Adventure",
                 image: $scope.config["asset_link"] + "/projects/text-adventure.png",
                 link: "https://text-adventure.carvelli.io",
-                link_text: "View Demo",
+                link_text: "Demo",
                 description: "A text-based game engine written for the web."
             },
             {
                 name: "Which Exchange",
                 image: $scope.config["asset_link"] + "/projects/whichexchange.png",
                 link: "https://kwikthinkers.xyz/whichexchange/",
-                link_text: "View Demo",
+                link_text: "Demo",
                 description: "Guess which StackExchange site each question comes from! HackNJIT 2015 project."
             },
             {
                 name: "Reddit Backgrounds",
                 image: $scope.config["asset_link"] + "/projects/reddit-backgrounds.png",
                 link: "https://github.com/gcarvelli/reddit-backgrounds",
-                link_text: "View Source",
+                link_text: "Source",
                 description: "Scrape multiple subreddits for high resolution wallpapers. HackRPI 2015 project."
             },
             {
                 name: "Spotify Backup",
                 image: $scope.config["asset_link"] + "/projects/02.jpg",
                 link: "https://github.com/gcarvelli/spotify-backup",
-                link_text: "View Source",
+                link_text: "Source",
                 description: "Back up your Spotify playlist metadata via the Spotify API."
             },
             {
                 name: "Geddit",
                 image: $scope.config["asset_link"] + "/projects/geddit.png",
                 link: "https://github.com/gcarvelli/geddit",
-                link_text: "View Source",
+                link_text: "Source",
                 description: "Reddit clone written from scratch in Ruby on Rails."
             },
             {
                 name: "House Explorer",
                 image: $scope.config["asset_link"] + "/projects/house-explorer.png",
                 link: "https://github.com/gcarvelli/house-explorer",
-                link_text: "View Source",
+                link_text: "Source",
                 description: "A text-based game engine written in Python."
             }
         ];
