@@ -10,7 +10,7 @@ var app = angular.module('gcarvelliWebsite', [])
         $scope.profile = {
             title: "Hello, I'm Gio.",
             image: "https://gravatar.com/avatar/9c5c1a414e20e714b0ea466fa6617940/?s=400",
-            intro: "I study Computer Science at RIT with planned graduation in May 2017. My experience is centered around web development and cloud applications.",
+            intro: "I am an Associate Software Engineer on the Core development team at Datto. My experience is mostly in web development and cloud applications.",
             contact: "Want to get in touch? Contact me using one of the methods below!"
         };
 
@@ -99,6 +99,13 @@ var app = angular.module('gcarvelliWebsite', [])
 
         $scope.jobs = [
             {
+                company: "Datto",
+                title: "Associate Software Engineer",
+                dates: "July 2017 - Present",
+                image: "https://assets.carvelli.io/personal/companies/datto.png",
+                description: "Worked with the Core development team to remove bugs from and add stability to onsite Datto backup devices."
+            },
+            {
                 company: "Microsoft",
                 title: "Azure Machine Learning Development Intern",
                 dates: "Summer 2016",
@@ -106,7 +113,7 @@ var app = angular.module('gcarvelliWebsite', [])
                 description: "Working as a member of a small development team under AzureML, I optimized a polling-based communication system in AzureML's backend using notifications through Azure ServiceBus."
             },
             {
-                company: "Datto Inc.",
+                company: "Datto",
                 title: "Cloud Development Intern",
                 dates: "Summer/Fall 2015",
                 image: "https://assets.carvelli.io/personal/companies/datto.png",

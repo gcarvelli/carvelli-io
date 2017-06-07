@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Giovanni Carvelli, Computer Science Major</title>
+        <title>Giovanni Carvelli, Software Engineer</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -18,7 +18,7 @@
         <!-- Header -->
             <header id="header">
                 <div class="image avatar"><img class="zoom-on-hover" ng-src="{{ profile.image }}" alt="" /></div>
-                <h1><strong>I am Gio</strong>, a fifth year <br /> Computer Science Major at RIT.</h1>
+                <h1><strong>I am Gio</strong>, an Associate <br /> Software Engineer at Datto.</h1>
             </header>
 
             <div id="main">
