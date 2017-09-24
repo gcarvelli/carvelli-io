@@ -103,7 +103,7 @@ var app = angular.module('gcarvelliWebsite', [])
                 title: "Associate Software Engineer",
                 dates: "July 2017 - Present",
                 image: "https://assets.carvelli.io/personal/companies/datto.png",
-                description: "Worked with the Core development team to remove bugs from and add stability to onsite Datto backup devices."
+                description: "Worked with the Core development team to develop new features for Datto devices and harden their communication with the Datto cloud."
             },
             {
                 company: "Microsoft",
