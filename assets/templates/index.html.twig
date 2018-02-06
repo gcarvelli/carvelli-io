@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Giovanni Carvelli, Software Engineer</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/custom.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <meta name="keywords" content="gio, giovanni, carvelli, giovannicarvelli, gcarvelli, rit, rochester institute of technology, rsa, rochester software associates, datto, datto inc., microsoft" />
+        <meta name="description" content="I'm Giovanni, an Associate Software Engineer at Datto.">
+    </head>
+    <body id="top">
+
+        <!-- Header -->
+            <header id="header">
+                <div class="image avatar"><img class="zoom-on-hover" src="{{ profile.image }}" alt="" /></div>
+                <h1><strong>I am Gio</strong>, an Associate <br /> Software Engineer at Datto.</h1>
+            </header>
+
+            <div id="main">
+
+                <section id="intro">
+                    <header class="major">
+                        <h2>{{ profile.title }}</h2>
+                    </header>
+                    <p>
+                        {{ profile.intro }}
+                    </p>
+                </section>
+
+                <section id="experience">
+                    <h2>Experience</h2>
+                    {% for job in jobs %}
+                        {% include 'job.html.twig' with {'job': job} %}
+                    {% endfor %}
+                    <ul class="actions">
+                        <li><a href="{{ profiles[3].link }}" class="button">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i> gcarvelli on LinkedIn
+                        </a></li>
+                    </ul>
+                </section>
+
+                <section id="projects">
+                    <h2>Projects</h2>
+                    <div class="row">
+                        {% for project in projects %}
+                            {% include 'project.html.twig' with {'project': project} %}
+                        {% endfor %}
+                    </div>
+                    <ul class="actions">
+                        <li><a href="{{ profiles[1].link }}" class="button">
+                            <i class="fa fa-github" aria-hidden="true"></i> @gcarvelli on Github
+                        </a></li>
+                    </ul>
+                </section>
+
+                <section id="contact">
+                    <h2>Get In Touch</h2>
+                    <p>{{ profile.contact }}</p>
+                    <ul class="actions">
+                        {% for profile in profiles %}
+                            {% if profile.contact %}
+                                {% include 'profile_contact.html.twig' with {'profile': profile} %}
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </section>
+            </div>
+
+            <footer id="footer">
+                <ul class="icons" >
+                    {% for profile in profiles %}
+                        {% include 'profile_footer.html.twig' with {'profile': profile} %}
+                    {% endfor %}
+                </ul>
+                <ul class="copyright">
+                    <li><a href="https://github.com/gcarvelli/carvelli-io">Source on Github</a></li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </footer>
+
+            <script src="//code.jquery.com/jquery-2.2.3.min.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.poptrox/2.5.1/jquery.poptrox.js"></script>
+            <script src="assets/js/skel.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+            <script src="assets/js/main.js"></script>
+            <script src="assets/js/custom.js"></script>
+
+    </body>
+</html>

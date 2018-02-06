@@ -1,2 +1,8 @@
-analytics.php
+# Phpstorm
+.idea
 
+# Twig cache
+cache/
+
+# Composer dependencies
+vendor/
