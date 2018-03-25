@@ -51,7 +51,7 @@
             "image": "/projects/text-adventure.png",
             "link": "https://text-adventure.carvelli.io",
             "link_text": "Demo",
-            "description": "A text-based game engine written for the web."
+            "description": "A text-based game engine written in Typescript. Runs in-browser and in your terminal!"
         },
         {
             "name": "Which Exchange",
@@ -95,7 +95,7 @@
             "title": "Associate Software Engineer",
             "dates": "July 2017 - Present",
             "image": "/companies/datto.png",
-            "description": "Worked on the Core development team that developed for and maintained software running on remote Datto devices. Also worked on a task force whose goal was to convert all Datto devices to an image-based upgrade strategy."
+            "description": "Worked on the Core development team that developed for and maintained software running on remote Datto devices. Also worked on a task force whose goal was to convert Datto's fleet of devices from package updates to an image-based update strategy."
         },
         {
             "company": "Microsoft",
