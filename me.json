@@ -10,10 +10,10 @@
     },
     "profiles": [
         {
-            "name": "Facebook",
-            "icon": "fa-facebook",
-            "link": "https://facebook.com/gcarvelli",
-            "handle": "gcarvelli",
+            "name": "Email",
+            "icon": "fa-envelope-o",
+            "link": "mailto:gio@carvelli.io",
+            "handle": "gio@carvelli.io",
             "contact": true
         },
         {
@@ -24,13 +24,6 @@
             "contact": false
         },
         {
-            "name": "Stack Overflow",
-            "icon": "fa-stack-overflow",
-            "link": "http://stackoverflow.com/users/3754233",
-            "handle": "gcarvelli",
-            "contact": false
-        },
-        {
             "name": "LinkedIn",
             "icon": "fa-linkedin",
             "link": "https://linkedin.com/in/gcarvelli",
@@ -38,10 +31,17 @@
             "contact": true
         },
         {
-            "name": "Email",
-            "icon": "fa-envelope-o",
-            "link": "mailto:gio@carvelli.io",
-            "handle": "gio@carvelli.io",
+            "name": "Stack Overflow",
+            "icon": "fa-stack-overflow",
+            "link": "http://stackoverflow.com/users/3754233",
+            "handle": "gcarvelli",
+            "contact": false
+        },
+        {
+            "name": "Facebook",
+            "icon": "fa-facebook",
+            "link": "https://facebook.com/gcarvelli",
+            "handle": "gcarvelli",
             "contact": true
         }
     ],
