@@ -88,21 +88,21 @@
             "title": "Associate Software Engineer",
             "dates": "July 2017 - Present",
             "image": "/companies/datto.png",
-            "description": "Worked on the Core development team that developed for and maintained software running on remote Datto devices. Also worked on a task force whose goal was to convert Datto's fleet of devices from package updates to an image-based update strategy."
+            "description": "Worked on a team that developed software running on remote Datto devices. Served on several small, high-importance task forces that converted all Datto devices to an image-based upgrade strategy and reimagined Datto's private cloud."
         },
         {
             "company": "Microsoft",
             "title": "Azure Machine Learning Development Intern",
             "dates": "Summer 2016",
             "image": "/companies/microsoft.png",
-            "description": "Working as a member of a small development team under AzureML, I optimized a polling-based communication system in AzureML's backend using notifications through Azure ServiceBus."
+            "description": "Working as a member of a small development team under AzureML, optimized a polling-based communication system in AzureML's backend using notifications through Azure ServiceBus."
         },
         {
             "company": "Datto",
             "title": "Cloud Development Intern",
             "dates": "Summer/Fall 2015",
             "image": "/companies/datto.png",
-            "description": "As a member of the Cloud Products development team I wrote and maintained code running on Datto's web portals, on-site devices, and storage nodes. I also worked on internal tooling for user account management."
+            "description": "Wrote and maintained code running on Datto's web portals, on-site devices, and storage nodes. Also worked on internal tooling for user account management."
         },
         {
             "company": "Rochester Software Associates",
