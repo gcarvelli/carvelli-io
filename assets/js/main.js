@@ -9,11 +9,10 @@
 	var settings = {
 
 		// Parallax background effect?
-			parallax: true,
+		parallax: true,
 
 		// Parallax factor (lower = more intense, higher = less intense).
-			parallaxFactor: 20
-
+		parallaxFactor: 80
 	};
 
 	skel.breakpoints({
