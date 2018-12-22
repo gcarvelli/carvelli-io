@@ -17,18 +17,18 @@
             "contact": true
         },
         {
-            "name": "Github",
-            "icon": "fa-github",
-            "link": "https://github.com/gcarvelli",
-            "handle": "@gcarvelli",
-            "contact": false
-        },
-        {
             "name": "LinkedIn",
             "icon": "fa-linkedin",
             "link": "https://linkedin.com/in/gcarvelli",
             "handle": "gcarvelli",
             "contact": true
+        },
+        {
+            "name": "Github",
+            "icon": "fa-github",
+            "link": "https://github.com/gcarvelli",
+            "handle": "@gcarvelli",
+            "contact": false
         },
         {
             "name": "Stack Overflow",
