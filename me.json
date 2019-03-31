@@ -49,7 +49,7 @@
         {
             "name": "Which Exchange",
             "image": "/projects/whichexchange.png",
-            "link": "https://kwikthinkers.xyz/whichexchange/",
+            "link": "https://kwikthinkers.carvelli.io/whichexchange/",
             "link_text": "Demo",
             "description": "Guess which StackExchange site each question comes from! HackNJIT 2015 project."
         },
