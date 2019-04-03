@@ -5,7 +5,7 @@
 
     $loader = new Twig_Loader_Filesystem('assets/templates/');
     $twig = new Twig_Environment($loader, [
-        'cache' => 'cache/',
+       // 'cache' => 'cache/',
     ]);
     $template = $twig->load('index.html.twig');
 
