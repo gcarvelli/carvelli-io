@@ -5,7 +5,7 @@
     "profile": {
         "title": "Hello, I'm Gio.",
         "image": "https://gravatar.com/avatar/9c5c1a414e20e714b0ea466fa6617940/?s=400",
-        "intro": "I am an Associate Software Engineer on the Core development team at Datto. I love solving big problems!",
+        "intro": "I am a Software Engineer on the Core development team at Datto. I love solving big problems!",
         "contact": "Want to get in touch? Contact me using one of the methods below!"
     },
     "profiles": [
@@ -85,10 +85,10 @@
     "jobs": [
         {
             "company": "Datto",
-            "title": "Associate Software Engineer",
+            "title": "Software Engineer",
             "dates": "July 2017 - Present",
             "image": "/companies/datto.png",
-            "description": "Worked on a team that developed software running on remote Datto devices. Served on several small, high-importance task forces that converted all Datto devices to an image-based upgrade strategy and reimagined Datto's private cloud."
+            "description": "Worked on teams that developed software powering remote Datto devices, web management portals, and Datto's private storage cloud. Served on several small, high-importance task forces that converted Datto's fleet of 75,000 devices to an image-based upgrade strategy and reimagined Datto's cloud."
         },
         {
             "company": "Microsoft",
