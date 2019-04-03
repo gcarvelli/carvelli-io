@@ -9,6 +9,7 @@
         }
     ],
     "require": {
+        "ext-json": "*",
         "twig/twig": "^2.4"
     }
 }
