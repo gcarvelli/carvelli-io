@@ -1,12 +1,13 @@
 <?php
-    require_once 'vendor/autoload.php';
 
-    $pageContent = json_decode(file_get_contents('me.json'), true);
+require_once 'vendor/autoload.php';
 
-    $loader = new Twig_Loader_Filesystem('assets/templates/');
-    $twig = new Twig_Environment($loader, [
-       // 'cache' => 'cache/',
-    ]);
-    $template = $twig->load('index.html.twig');
+$pageContent = json_decode(file_get_contents('me.json'), true);
 
-    echo $template->render($pageContent);
+$loader = new Twig_Loader_Filesystem('assets/templates/');
+$twig = new Twig_Environment($loader, [
+   // 'cache' => 'cache/',
+]);
+$template = $twig->load('index.html.twig');
+
+echo $template->render($pageContent);
