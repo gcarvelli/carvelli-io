@@ -5,7 +5,7 @@
     "profile": {
         "title": "Hello, I'm Gio.",
         "image": "https://gravatar.com/avatar/9c5c1a414e20e714b0ea466fa6617940/?s=400",
-        "intro": "I am a Software Engineer on the Cloud Continuity team at Datto. I love solving big problems!",
+        "intro": "I am a Software Engineer at Orchard. I love solving big problems!",
         "contact": "Want to get in touch? Contact me using one of the methods below!"
     },
     "profiles": [
@@ -84,9 +84,16 @@
     ],
     "jobs": [
         {
+            "company": "Orchard",
+            "title": "Software Engineer",
+            "dates": "February 2020 - Present",
+            "image": "/companies/orchard/orchard.svg",
+            "description": "Automated real estate contract population and signing with Docusign. Polished and launched a new single-pane-of-glass dashboard for home buyers using Orchard's services."
+        },
+        {
             "company": "Datto",
             "title": "Software Engineer",
-            "dates": "July 2017 - Present",
+            "dates": "July 2017 - February 2020",
             "image": "/companies/datto.png",
             "description": "Developed software powering remote Datto devices, web management portals, and Datto's private storage cloud. Participated in several small, high-velocity task forces that converted Datto's fleet of 75,000 devices to an image-based upgrade strategy and build a scalable storage backend for Datto's new Cloud Continuity backup agent."
         },
