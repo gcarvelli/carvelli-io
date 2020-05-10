@@ -13,29 +13,27 @@
             "name": "Email",
             "icon": "fa-envelope-o",
             "link": "mailto:gio@carvelli.io",
-            "handle": "gio@carvelli.io",
-            "contact": true
+            "handle": "gio@carvelli.io"
         },
         {
             "name": "LinkedIn",
             "icon": "fa-linkedin",
             "link": "https://linkedin.com/in/gcarvelli",
-            "handle": "gcarvelli",
-            "contact": true
+            "handle": "gcarvelli"
         },
         {
             "name": "Github",
             "icon": "fa-github",
             "link": "https://github.com/gcarvelli",
             "handle": "@gcarvelli",
-            "contact": false
+            "show_in_contact": false
         },
         {
             "name": "Stack Overflow",
             "icon": "fa-stack-overflow",
             "link": "http://stackoverflow.com/users/3754233",
             "handle": "gcarvelli",
-            "contact": false
+            "show_in_contact": false
         }
     ],
     "projects": [
@@ -116,7 +114,8 @@
             "title": "C#/.NET Development Intern",
             "dates": "Summer/Fall 2014",
             "image": "/companies/rsa.png",
-            "description": "Fixed bugs and developed new features for RSA's .NET-based suite of printer ticket transformation programs."
+            "description": "Fixed bugs and developed new features for RSA's .NET-based suite of printer ticket transformation programs.",
+            "show": false
         }
     ]
 }

@@ -1,3 +1,4 @@
+{% if project.show is not defined or project.show %}
 <article class="6u 12u$(xsmall) work-item">
     <a href="{{ project.link }}">
         <div class="image-wrap">
@@ -9,3 +10,4 @@
     </a>
     <p>{{ project.description }}</p>
 </article>
+{% endif %}

@@ -61,8 +61,8 @@
                     <p>{{ profile.contact }}</p>
                     <ul class="actions">
                         {% for profile in profiles %}
-                            {% if profile.contact %}
-                                {% include 'profile_contact.html.twig' with {'profile': profile} %}
+                            {% if profile.show_in_contact is not defined or profile.show_in_contact %}
+                                {% include 'profile-contact.html.twig' with {'profile': profile} %}
                             {% endif %}
                         {% endfor %}
                     </ul>
@@ -72,7 +72,7 @@
             <footer id="footer">
                 <ul class="icons" >
                     {% for profile in profiles %}
-                        {% include 'profile_footer.html.twig' with {'profile': profile} %}
+                        {% include 'profile-footer.html.twig' with {'profile': profile} %}
                     {% endfor %}
                 </ul>
                 <ul class="copyright">
