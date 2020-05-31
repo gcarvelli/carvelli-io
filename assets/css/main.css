@@ -2467,7 +2467,7 @@
 		background-attachment: scroll, fixed;
 		background-image: url("https://assets.carvelli.io/personal/overlay.png"), url("https://assets.carvelli.io/personal/graffiti-bg.jpg");
 		background-position: top left, top left;
-		background-repeat: repeat, round;
+		background-repeat: repeat, repeat;
 		background-size: auto, 50%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
