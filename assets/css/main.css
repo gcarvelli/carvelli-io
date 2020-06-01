@@ -2933,7 +2933,7 @@
 				background-color: #1f1815;
 				background-image: url("https://assets.carvelli.io/personal/overlay.png"), url("https://assets.carvelli.io/personal/graffiti-bg.jpg");
 				background-position: top left,						bottom center;
-				background-repeat: repeat,							no-repeat;
+				background-repeat: repeat,							repeat;
 				background-size: auto,							cover;
 				bottom: auto;
 				left: auto;
