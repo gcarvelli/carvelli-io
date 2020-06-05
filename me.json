@@ -70,14 +70,16 @@
             "image": "/projects/geddit.png",
             "link": "https://github.com/gcarvelli/geddit",
             "link_text": "Source",
-            "description": "Reddit clone written from scratch in Ruby on Rails."
+            "description": "Reddit clone written from scratch in Ruby on Rails.",
+            "show": false
         },
         {
             "name": "House Explorer",
             "image": "/projects/house-explorer.png",
             "link": "https://github.com/gcarvelli/house-explorer",
             "link_text": "Source",
-            "description": "A text-based game engine written in Python."
+            "description": "A text-based game engine written in Python.",
+            "show": false
         }
     ],
     "jobs": [
