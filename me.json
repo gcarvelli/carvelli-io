@@ -109,7 +109,8 @@
             "title": "Cloud Development Intern",
             "dates": "Summer/Fall 2015",
             "image": "/companies/datto.png",
-            "description": "Wrote and maintained code running on Datto's web portals, on-site devices, and storage nodes. Also worked on internal tooling for user account management."
+            "description": "Wrote and maintained code running on Datto's web portals, on-site devices, and storage nodes. Also worked on internal tooling for user account management.",
+            "show": false
         },
         {
             "company": "Rochester Software Associates",
