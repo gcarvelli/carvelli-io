@@ -27,13 +27,6 @@
             "link": "https://github.com/gcarvelli",
             "handle": "@gcarvelli",
             "show_in_contact": false
-        },
-        {
-            "name": "Stack Overflow",
-            "icon": "fa-stack-overflow",
-            "link": "http://stackoverflow.com/users/3754233",
-            "handle": "gcarvelli",
-            "show_in_contact": false
         }
     ],
     "projects": [
