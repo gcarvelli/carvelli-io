@@ -81,14 +81,14 @@
             "title": "Software Engineer",
             "dates": "February 2020 - Present",
             "image": "/companies/orchard/orchard.svg",
-            "description": "Automated real estate contract population and signing with Docusign. Polished and launched a new single-pane-of-glass dashboard for home buyers using Orchard's services."
+            "description": "Designed, scoped, and currently implementing the next version of Orchard's development pipeline including local development environments, cloud-hosted Dev/QA/Prod environments, and secrets management. Polished and launched a new single-pane-of-glass dashboard for home buyers using Orchard's services. Automated real estate contract population and signing with Docusign."
         },
         {
             "company": "Datto",
             "title": "Software Engineer",
             "dates": "July 2017 - February 2020",
             "image": "/companies/datto.png",
-            "description": "Developed software powering remote Datto devices, web management portals, and Datto's private storage cloud. Participated in several small, high-velocity task forces that converted Datto's fleet of 75,000 devices to an image-based upgrade strategy and build a scalable storage backend for Datto's new Cloud Continuity backup agent."
+            "description": "Developed software powering remote Datto devices, web management portals, and Datto's private storage cloud. Participated in several small, high-velocity task forces that converted Datto's fleet of 75,000 devices to an image-based upgrade strategy and build a scalable storage backend for Datto's Cloud Continuity backup agent."
         },
         {
             "company": "Microsoft",
