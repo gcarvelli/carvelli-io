@@ -17,3 +17,5 @@ FROM nginx
 WORKDIR /usr/share/nginx/html
 
 COPY --from=builder /home/node/assets/ .
+
+EXPOSE 80
