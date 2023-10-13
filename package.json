@@ -1,0 +1,12 @@
+{
+  "name": "carvelli-io",
+  "version": "1.0.0",
+  "description": "Gio's personal website",
+  "scripts": {
+    "build": "cat me.json | npx liquidjs --template @./templates/index.liquid --context @- --root templates/ > assets/index.html"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "liquidjs": "^10.9.2"
+  }
+}

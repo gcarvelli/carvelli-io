@@ -1,8 +1,8 @@
-{% if job.show is not defined or job.show %}
+{% if job.show %}
 <div class="row">
     <article class="12u 12u$(xsmall)">
         <div class="employer-header job-image">
-            <img src="{{ config.asset_root ~ job.image }}" />
+            <img src="{{ config.asset_root | append: job.image }}" />
         </div>
         <div class="employer-body">
             <h3>{{ job.company }}</h3>
