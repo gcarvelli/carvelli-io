@@ -36,7 +36,7 @@
                         {% render 'job.liquid', job: job, config: config %}
                     {% endfor %}
                     <ul class="actions">
-                        <li><a href="{{ profiles[3].link }}" class="button">
+                        <li><a href="{{ profiles | where: 'name', 'LinkedIn' | map: 'link' | first }}" class="button">
                             <i class="fa fa-linkedin" aria-hidden="true"></i> gcarvelli on LinkedIn
                         </a></li>
                     </ul>
@@ -50,7 +50,7 @@
                         {% endfor %}
                     </div>
                     <ul class="actions">
-                        <li><a href="{{ profiles[1].link }}" class="button">
+                        <li><a href="{{ profiles | where: 'name', 'Github' | map: 'link' | first }}" class="button">
                             <i class="fa fa-github" aria-hidden="true"></i> @gcarvelli on Github
                         </a></li>
                     </ul>
