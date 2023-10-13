@@ -1,0 +1,8 @@
+version: '3'
+services:
+  carvelli-io:
+    build: .
+    image: carvelli-io
+    ports:
+      - '8080:80'
+    

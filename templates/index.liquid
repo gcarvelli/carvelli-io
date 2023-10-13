@@ -4,10 +4,10 @@
         <title>Giovanni Carvelli, Software Engineer</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-        <link rel="stylesheet" href="assets/css/main.css" />
-        <link rel="stylesheet" href="assets/css/custom.css" />
-        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <!--[if lte IE 8]><script src="js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/custom.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
         <meta name="keywords" content="gio, giovanni, carvelli, giovannicarvelli, gcarvelli, rit, rochester institute of technology, rsa, rochester software associates, datto, microsoft, orchard" />
         <meta name="description" content="I'm Giovanni, an Associate Software Engineer at Orchard.">
     </head>
@@ -33,10 +33,10 @@
                 <section id="experience">
                     <h2>Experience</h2>
                     {% for job in jobs %}
-                        {% include 'job.html.twig' with {'job': job} %}
+                        {% render 'job.liquid', job: job, config: config %}
                     {% endfor %}
                     <ul class="actions">
-                        <li><a href="{{ profiles[3].link }}" class="button">
+                        <li><a href="{{ profiles | where: 'name', 'LinkedIn' | map: 'link' | first }}" class="button">
                             <i class="fa fa-linkedin" aria-hidden="true"></i> gcarvelli on LinkedIn
                         </a></li>
                     </ul>
@@ -46,11 +46,11 @@
                     <h2>Projects</h2>
                     <div class="row">
                         {% for project in projects %}
-                            {% include 'project.html.twig' with {'project': project} %}
+                            {% render 'project.liquid', project: project, config: config %}
                         {% endfor %}
                     </div>
                     <ul class="actions">
-                        <li><a href="{{ profiles[1].link }}" class="button">
+                        <li><a href="{{ profiles | where: 'name', 'Github' | map: 'link' | first }}" class="button">
                             <i class="fa fa-github" aria-hidden="true"></i> @gcarvelli on Github
                         </a></li>
                     </ul>
@@ -62,7 +62,7 @@
                     <ul class="actions">
                         {% for profile in profiles %}
                             {% if profile.show_in_contact is not defined or profile.show_in_contact %}
-                                {% include 'profile-contact.html.twig' with {'profile': profile} %}
+                                {% render 'profile-contact.liquid', profile: profile %}
                             {% endif %}
                         {% endfor %}
                     </ul>
@@ -72,7 +72,7 @@
             <footer id="footer">
                 <ul class="icons" >
                     {% for profile in profiles %}
-                        {% include 'profile-footer.html.twig' with {'profile': profile} %}
+                        {% render 'profile-footer.liquid', profile: profile %}
                     {% endfor %}
                 </ul>
                 <ul class="copyright">

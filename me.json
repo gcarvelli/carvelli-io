@@ -13,19 +13,24 @@
             "name": "Email",
             "icon": "fa-envelope-o",
             "link": "mailto:gio@carvelli.io",
-            "handle": "gio@carvelli.io"
+            "handle": "gio@carvelli.io",
+            "show": true,
+            "show_in_contact": true
         },
         {
             "name": "LinkedIn",
             "icon": "fa-linkedin",
             "link": "https://linkedin.com/in/gcarvelli",
-            "handle": "gcarvelli"
+            "handle": "gcarvelli",
+            "show": true,
+            "show_in_contact": true
         },
         {
             "name": "Github",
             "icon": "fa-github",
             "link": "https://github.com/gcarvelli",
             "handle": "@gcarvelli",
+            "show": true,
             "show_in_contact": false
         }
     ],
@@ -35,28 +40,32 @@
             "image": "/projects/text-adventure.png",
             "link": "https://text-adventure.carvelli.io",
             "link_text": "Demo",
-            "description": "A text-based game engine written in Typescript. Runs in-browser and in your terminal!"
+            "description": "A text-based game engine written in Typescript. Runs in-browser and in your terminal!",
+            "show": true
         },
         {
             "name": "Which Exchange",
             "image": "/projects/whichexchange.png",
             "link": "https://kwikthinkers.carvelli.io/whichexchange/",
             "link_text": "Demo",
-            "description": "Guess which StackExchange site each question comes from! HackNJIT 2015 project."
+            "description": "Guess which StackExchange site each question comes from! HackNJIT 2015 project.",
+            "show": true
         },
         {
             "name": "Reddit Backgrounds",
             "image": "/projects/reddit-backgrounds.png",
             "link": "https://github.com/gcarvelli/reddit-backgrounds",
             "link_text": "Source",
-            "description": "Scrape multiple subreddits for high resolution wallpapers. HackRPI 2015 project."
+            "description": "Scrape multiple subreddits for high resolution wallpapers. HackRPI 2015 project.",
+            "show": true
         },
         {
             "name": "Spotify Backup",
             "image": "/projects/02.jpg",
             "link": "https://github.com/gcarvelli/spotify-backup",
             "link_text": "Source",
-            "description": "Back up your Spotify playlist metadata via the Spotify API."
+            "description": "Back up your Spotify playlist metadata via the Spotify API.",
+            "show": true
         },
         {
             "name": "Geddit",
@@ -81,21 +90,24 @@
             "title": "Software Engineer",
             "dates": "February 2020 - Present",
             "image": "/companies/orchard/orchard.svg",
-            "description": "Designed, scoped, and currently implementing the next version of Orchard's development pipeline including local development environments, Infrastructure-as-code specified Dev/QA/Prod environments, and secrets management. Polished and launched a new single-pane-of-glass dashboard for home buyers using Orchard's services. Automated real estate contract population and signing with Docusign."
+            "description": "Designed, scoped, and currently implementing the next version of Orchard's development pipeline including local development environments, Infrastructure-as-code specified Dev/QA/Prod environments, and secrets management. Polished and launched a new single-pane-of-glass dashboard for home buyers using Orchard's services. Automated real estate contract population and signing with Docusign.",
+            "show": true
         },
         {
             "company": "Datto",
             "title": "Software Engineer",
             "dates": "July 2017 - February 2020",
             "image": "/companies/datto.png",
-            "description": "Developed software powering remote Datto backup appliances, web management portals, and Datto's private storage cloud. Participated in several small, high-velocity task forces that converted Datto's fleet of 75,000 devices to an image-based upgrade strategy and build a scalable storage backend for Datto's Cloud Continuity backup agent."
+            "description": "Developed software powering remote Datto backup appliances, web management portals, and Datto's private storage cloud. Participated in several small, high-velocity task forces that converted Datto's fleet of 75,000 devices to an image-based upgrade strategy and build a scalable storage backend for Datto's Cloud Continuity backup agent.",
+            "show": true
         },
         {
             "company": "Microsoft",
             "title": "Azure Machine Learning Development Intern",
             "dates": "Summer 2016",
             "image": "/companies/microsoft.png",
-            "description": "Working as a member of a small development team under AzureML, optimized a polling-based communication system in AzureML's backend using notifications through Azure ServiceBus."
+            "description": "Working as a member of a small development team under AzureML, optimized a polling-based communication system in AzureML's backend using notifications through Azure ServiceBus.",
+            "show": true
         },
         {
             "company": "Datto",
