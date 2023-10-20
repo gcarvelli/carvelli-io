@@ -5,4 +5,5 @@ services:
     image: carvelli-io
     ports:
       - '8080:80'
+    restart: unless-stopped
     
