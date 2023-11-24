@@ -7,7 +7,15 @@
         <div class="employer-body">
             <h3>{{ job.company }}</h3>
             <h4>{{ job.title }}, <span>{{ job.dates }}</span></h4>
-            <p>{{ job.description }}</p>
+            {% if job.description %}
+                <p>{{ job.description }}</p>
+            {% else if job.bullets %}
+                <ul>
+                    {% for bullet in job.bullets %}
+                        <li>{{ bullet }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
         </div>
     </article>
 </div>
