@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Giovanni Carvelli, Software Engineer</title>
+        <title>{{ profile.fullname }}, {{ profile.job_title }}</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="js/ie/html5shiv.js"></script><![endif]-->
@@ -9,21 +9,21 @@
         <link rel="stylesheet" href="css/custom.css" />
         <!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
         <meta name="keywords" content="gio, giovanni, carvelli, giovannicarvelli, gcarvelli, rit, rochester institute of technology, rsa, rochester software associates, datto, microsoft, orchard" />
-        <meta name="description" content="I'm Giovanni, an Associate Software Engineer at Orchard.">
+        <meta name="description" content="I'm {{ profile.firstname }}, a {{ profile.job_title }} at Orchard.">
     </head>
     <body id="top">
 
         <!-- Header -->
             <header id="header">
                 <div class="image avatar"><img class="zoom-on-hover" src="{{ profile.image }}" alt="" /></div>
-                <h1><strong>I am Gio</strong>, a <br /> Software Engineer at Orchard.</h1>
+                <h1><strong>I am Gio</strong>, a <br /> {{ profile.job_title }} at Orchard.</h1>
             </header>
 
             <div id="main">
 
                 <section id="intro">
                     <header class="major">
-                        <h2>{{ profile.title }}</h2>
+                        <h2>{{ profile.header }}</h2>
                     </header>
                     <p>
                         {{ profile.intro }}
