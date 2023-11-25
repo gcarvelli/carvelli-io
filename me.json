@@ -94,7 +94,7 @@
             "dates": "February 2020 - Present",
             "image": "/companies/orchard/orchard.svg",
             "bullets": [
-                "As the single member of the DevX team I scoped, designed, and completed several company-spanning projects including updating Python from 3.7 to 3.10, implementing Datadog logging and metrics, and building ARM-native Docker images in 20+ repositories.",
+                "As the single member of the DevX team, I scoped, designed, and completed several company-spanning projects including updating Python from 3.7 to 3.10, implementing Datadog logging and metrics, and building ARM-native Docker images in 20+ repositories.",
                 "Maintained a suite of internal tools including test runners powered by an EC2 Autoscale Group, a Typescript-based wrapper around docker-compose that engineers use for local development, a library of CircleCI Orbs, a Superset instance to help identify test flakes, and Github/Slack bots running in Elastic Container Service.",
                 "Served as a point-of-contact for any technical issues engineers had with their development environments, CI pipelines, and automated tests, as well as Data Engineering- and Infrastructure-related issues as those teams were let go or left.",
                 "Assisted engineers as they migrated an application from bespoke architecture over to Cloud66, Orchard's standard production environment. This involved getting the application to run in a Kubernetes environment and merging their own secret store with our own.",
