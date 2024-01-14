@@ -8,7 +8,7 @@ COPY package.json .
 COPY package-lock.json .
 COPY templates/ ./templates
 
-RUN npm i
+RUN npm ci
 RUN npm run build
 
 
