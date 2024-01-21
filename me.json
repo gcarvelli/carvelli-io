@@ -8,7 +8,7 @@
         "job_title": "Senior Software Engineer",
         "header": "Hello, I'm Gio.",
         "image": "https://gravatar.com/avatar/9c5c1a414e20e714b0ea466fa6617940/?s=400",
-        "intro": "I am a Senior Software Engineer at Orchard. I love solving big problems!",
+        "intro": "I am a Senior Software Engineer in NYC. Developer Experience is my specialty but I also have a wide range of experience in Product Engineering.",
         "contact": "Want to get in touch? Contact me using one of the methods below!"
     },
     "profiles": [
@@ -90,29 +90,18 @@
     "jobs": [
         {
             "company": "Orchard",
-            "title": "Senior Software Engineer (Developer Experience)",
-            "dates": "February 2020 - Present",
+            "title": "Senior Software Engineer - DevX",
+            "dates": "August 2022 - Present",
             "image": "/companies/orchard/orchard.svg",
-            "bullets": [
-                "As the single member of the DevX team, I scoped, designed, and completed several company-spanning projects including updating Python from 3.7 to 3.10, implementing Datadog logging and metrics, and building ARM-native Docker images in 20+ repositories.",
-                "Maintained a suite of internal tools including test runners powered by an EC2 Autoscale Group, a Typescript-based wrapper around docker-compose that engineers use for local development, a library of CircleCI Orbs, a Superset instance to help identify test flakes, and Github/Slack bots running in Elastic Container Service.",
-                "Served as a point-of-contact for any technical issues engineers had with their development environments, CI pipelines, and automated tests, as well as Data Engineering- and Infrastructure-related issues as those teams were let go or left.",
-                "Assisted engineers as they migrated an application from bespoke architecture over to Cloud66, Orchard's standard production environment. This involved getting the application to run in a Kubernetes environment and merging their own secret store with our own.",
-                "Created a test framework in Cypress and facilitated the migration of our flaky Protractor tests onto it.",
-                "After a potential breach in CircleCI, I tracked down and rotated 175 secrets from projects across the organization. I owned the completion of this project, bringing our exposure to this breach down to 0."
-            ],
+            "description": "DevX team of one! I embedded in our Product engineering teams, identified problem areas, and came up with . Projects ranged from affecting our engineers directly (upgrading 20+ services from Python 3.7 to 3.10, fixing a bunch of M1-compatibility issues with our dev tools) to more behind-the-scenes (re-architecting of our self-hosted end to end test runners and bastion hosts).",
             "show": true
         },
         {
             "company": "Orchard",
-            "title": "Software Engineer (Product)",
-            "dates": "February 2020 - Present",
+            "title": "Software Engineer - Product",
+            "dates": "February 2020 - August 2022",
             "image": "/companies/orchard/orchard.svg",
-            "bullets": [
-                "Built a wide-reaching Salesforce integration on top of Heroku Connect that empowered our Real Estate Agents to conduct their business entirely in Salesforce and Field Service Lightning.",
-                "Isolated and abstracted Orchard's mission-critical Docusign integration into a single microservice capable of autofilling contracts, receiving webhooks, and triggering events in our real estate backend.",
-                "Proctored more than 80 technical interviews for all engineering levels. Also created an interview for a new programming-heavy IT position and codified Orchard's first interviewer level-up process."
-            ],
+            "description": "Developed and launched a new single-pane-of-glass dashboard for home buyers using Orchard's services. Automated real estate contract population and signing with Docusign. Built a wide-reaching bi-directional sync with Salesforce.",
             "show": true
         },
         {
