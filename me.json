@@ -90,10 +90,10 @@
     "jobs": [
         {
             "company": "Orchard",
-            "title": "Senior Software Engineer - DevX",
+            "title": "Senior Software Engineer - Developer Experience",
             "dates": "August 2022 - Present",
             "image": "/companies/orchard/orchard.svg",
-            "description": "DevX team of one! I embedded in our Product engineering teams, identified problem areas, and came up with . Projects ranged from affecting our engineers directly (upgrading 20+ services from Python 3.7 to 3.10, fixing a bunch of M1-compatibility issues with our dev tools) to more behind-the-scenes (re-architecting of our self-hosted end to end test runners and bastion hosts).",
+            "description": "DevX team of one! I embedded in our Product engineering teams, identified issues, and built the solutions from start to finish. Projects ranged from affecting our engineers directly (upgrading 20+ services from Python 3.7 to 3.10, fixing a bunch of M1-compatibility issues with our dev tools) to more behind-the-scenes (re-architecting of our self-hosted end to end test runners and bastion hosts).",
             "show": true
         },
         {
