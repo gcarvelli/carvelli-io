@@ -89,9 +89,17 @@
     ],
     "jobs": [
         {
+            "company": "WorkOS",
+            "title": "Senior Software Engineer - Engineering Productivity",
+            "dates": "March 2024 - Present",
+            "image": "/companies/workos.svg",
+            "description": "Built our EngProd team from 0 to 1. Embedded with Product teams and worked on their projects to identify issues with our development environments and release process (I designed and built our Sign in with Apple integration). Many technical Productivity tasks like Typescript/TypeORM/Storybook upgrades, large codebase refactors that drastically improved developer onboarding, and improvements to Rush and our local development experience.",
+            "show": true
+        },
+        {
             "company": "Orchard",
             "title": "Senior Software Engineer - Developer Experience",
-            "dates": "August 2022 - Present",
+            "dates": "August 2022 - March 2024",
             "image": "/companies/orchard/orchard.svg",
             "description": "DevX team of one! I embedded in our Product engineering teams, identified issues, and built the solutions from start to finish. Projects ranged from affecting our engineers directly (upgrading 20+ services from Python 3.7 to 3.10, fixing a bunch of M1-compatibility issues with our dev tools) to more behind-the-scenes (re-architecting of our self-hosted end to end test runners and bastion hosts).",
             "show": true
@@ -118,7 +126,7 @@
             "dates": "Summer 2016",
             "image": "/companies/microsoft.png",
             "description": "Working as a member of a small development team under AzureML, optimized a polling-based communication system in AzureML's backend using notifications through Azure ServiceBus.",
-            "show": true
+            "show": false
         },
         {
             "company": "Datto",
