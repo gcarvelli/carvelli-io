@@ -92,7 +92,7 @@
         {
             "company": "WorkOS",
             "title": "Senior Software Engineer - Engineering Productivity",
-            "dates": "March 2024 - Present",
+            "dates": "March 2024 - March 2026",
             "image": "/companies/workos.svg",
             "description": "Built our EngProd team from 0 to 1. Embedded with Product teams and worked on their projects to identify issues with our development environments and release process (I designed and built our Sign in with Apple integration). Many technical Productivity tasks like Typescript/TypeORM/Storybook upgrades, large codebase refactors that drastically improved developer onboarding, and improvements to Rush and our local development experience.",
             "show": true
