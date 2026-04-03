@@ -57,7 +57,7 @@
 /* Header */
 
 	#header {
-		background-image: url("https://assets.carvelli.io/personal/bg.jpg");
+		background-image: url("https://carvelli.io/assets/personal/bg.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		-ms-behavior: url("js/ie/backgroundsize.min.htc");
