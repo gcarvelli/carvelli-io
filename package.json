@@ -7,6 +7,6 @@
   },
   "license": "ISC",
   "dependencies": {
-    "liquidjs": "^10.9.2"
+    "liquidjs": "^10.25.3"
   }
 }
